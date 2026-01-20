@@ -1,0 +1,26 @@
+{
+  "name": "byg-docs",
+  "version": "1.0.0",
+  "author": "ash",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BygNet/Docs.git"
+  },
+  "main": "web/index.mdx",
+  "bugs": {
+    "url": "https://github.com/BygNet/Docs/issues"
+  },
+  "description": "Byg Social/API Docs.",
+  "homepage": "https://github.com/BygNet/Docs#readme",
+  "keywords": [
+    "api-docs",
+    "social-platform",
+    "mintlify",
+    "byg-platform"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "mint dev --port 5173"
+  },
+  "type": "module"
+}
