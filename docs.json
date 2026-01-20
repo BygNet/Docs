@@ -1,87 +1,77 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "aspen",
+  "name": "Byg Platform Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#2f9a9b",
+    "light": "#57bcc1",
+    "dark": "#41728c"
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "dropdowns": [
       {
-        "tab": "Guides",
+        "dropdown": "Byg Web",
+        "description": "Byg Platform for Web.",
+        "icon": "globe",
         "groups": [
           {
-            "group": "Getting started",
+            "group": " ",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "web/index",
+              "web/quickstart",
+              "web/development"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "dropdown": "Byg API",
+        "description": "Byg API documentation.",
+        "icon": "code",
         "groups": [
           {
-            "group": "API documentation",
+            "group": " ",
             "pages": [
-              "api-reference/introduction"
+              "api/index"
+            ]
+          }
+        ]
+      },
+      {
+        "dropdown": "Byg Mobile",
+        "description": "Byg Mobile documentation.",
+        "icon": "mobile-notch",
+        "groups": [
+          {
+            "group": " ",
+            "pages": [
+              "mobile/index"
+            ]
+          }
+        ]
+      },
+      {
+        "dropdown": "Byg Roadmap",
+        "description": "Byg Roadmap.",
+        "icon": "lightbulb",
+        "groups": [
+          {
+            "group": " ",
+            "pages": [
+              "roadmap/index"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Categories",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "roadmap/targets",
+              "roadmap/features"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -91,13 +81,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:byg@a35.dev"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Byg Web",
+      "href": "https://byg.a35.dev/"
     }
   },
   "contextual": {
@@ -114,9 +104,8 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/BygNet",
+      "website": "https://byg.a35.dev/"
     }
   }
 }

@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "checkJs": true,
+        "allowJs": true,
+        "lib": ["ESNext"],
+        "allowArbitraryExtensions": true,
+        "module": "ESNext"
+    }
+}
