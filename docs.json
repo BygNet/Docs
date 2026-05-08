@@ -1,18 +1,18 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "aspen",
-  "name": "Byg Platform Docs",
+  "name": "Byg Media Docs",
   "colors": {
-    "primary": "#2f9a9b",
-    "light": "#57bcc1",
-    "dark": "#41728c"
+    "primary": "#D11595",
+    "light": "#e660b0",
+    "dark": "#8e2c69"
   },
   "favicon": "/favicon.png",
   "navigation": {
     "dropdowns": [
       {
         "dropdown": "Byg Web",
-        "description": "Byg Platform for Web.",
+        "description": "Byg Media for Web.",
         "icon": "globe",
         "groups": [
           {
@@ -26,6 +26,19 @@
         ]
       },
       {
+        "dropdown": "Byg Account",
+        "description": "Byg Account management.",
+        "icon": "user",
+        "groups": [
+          {
+            "group": " ",
+            "pages": [
+              "account/index"
+            ]
+          }
+        ]
+      },
+      {
         "dropdown": "Byg API",
         "description": "Byg API documentation.",
         "icon": "code",
@@ -34,39 +47,6 @@
             "group": " ",
             "pages": [
               "api/index"
-            ]
-          }
-        ]
-      },
-      {
-        "dropdown": "Byg Mobile",
-        "description": "Byg Mobile documentation.",
-        "icon": "mobile-notch",
-        "groups": [
-          {
-            "group": " ",
-            "pages": [
-              "mobile/index"
-            ]
-          }
-        ]
-      },
-      {
-        "dropdown": "Byg Roadmap",
-        "description": "Byg Roadmap.",
-        "icon": "lightbulb",
-        "groups": [
-          {
-            "group": " ",
-            "pages": [
-              "roadmap/index"
-            ]
-          },
-          {
-            "group": "Categories",
-            "pages": [
-              "roadmap/targets",
-              "roadmap/features"
             ]
           }
         ]
@@ -87,7 +67,7 @@
     "primary": {
       "type": "button",
       "label": "Byg Web",
-      "href": "https://byg.a35.dev/"
+      "href": "https://byg.gg/"
     }
   },
   "contextual": {
@@ -105,7 +85,7 @@
   "footer": {
     "socials": {
       "github": "https://github.com/BygNet",
-      "website": "https://byg.a35.dev/"
+      "website": "https://byg.gg/"
     }
   }
 }

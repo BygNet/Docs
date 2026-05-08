@@ -1,6 +1,6 @@
 {
   "name": "byg-docs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "ash",
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "dev": "mint dev --port 5173"
+    "dev": "mint dev --port 2256"
   },
   "type": "module"
 }

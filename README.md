@@ -1,5 +1,5 @@
-# Byg Platform Docs
-The official documentation for Byg Platform.
+# Byg Media Docs
+The official documentation for Byg Media.
 
 ## Targets
 - Byg Social – How to use the official Byg clients.
