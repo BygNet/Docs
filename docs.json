@@ -7,6 +7,11 @@
     "light": "#e660b0",
     "dark": "#8e2c69"
   },
+  "seo": {
+    "metatags": {
+      "yandex-verification": "8e8542e4be1cc43c"
+    }
+  },
   "favicon": "/favicon.png",
   "navigation": {
     "dropdowns": [

@@ -1,6 +1,6 @@
 {
-  "name": "byg-docs",
-  "version": "1.1.0",
+  "name": "@bygnet/docs",
+  "version": "1.1.1",
   "author": "ash",
   "repository": {
     "type": "git",
