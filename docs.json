@@ -24,7 +24,9 @@
             "group": " ",
             "pages": [
               "web/index",
-              "web/quickstart"
+              "web/quickstart",
+              "web/posts",
+              "web/images"
             ]
           }
         ]
@@ -37,7 +39,15 @@
           {
             "group": " ",
             "pages": [
-              "account/index"
+              "account/index",
+              "account/sign-up",
+              "account/email-verification",
+              "account/profile",
+              "account/language",
+              "account/themes",
+              "account/security",
+              "account/sessions",
+              "account/two-factor"
             ]
           }
         ]

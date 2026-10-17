@@ -1,7 +1,32 @@
 ---
-title: 'Account Home'
-description: 'Byg Media Account Documentation Home.'
-icon: 'house'
+title: "Account"
+description: "Manage your Byg account and preferences."
+icon: "user"
 ---
 
-An improved Byg account experience is coming soon!
+<Columns cols={2}>
+  <Card title="Sign up" icon="user-plus" href="/account/sign-up">
+    Create a Byg account.
+  </Card>
+  <Card title="Verify email" icon="envelope" href="/account/email-verification">
+    Confirm your email address.
+  </Card>
+  <Card title="Edit profile" icon="user" href="/account/profile">
+    Change your public profile details.
+  </Card>
+  <Card title="Language" icon="language" href="/account/language">
+    Change the Byg interface language.
+  </Card>
+  <Card title="Themes" icon="palette" href="/account/themes">
+    Change colors and wallpapers.
+  </Card>
+  <Card title="Security" icon="shield" href="/account/security">
+    Protect your account.
+  </Card>
+  <Card title="Sessions" icon="laptop-mobile" href="/account/sessions">
+    Review and revoke signed-in sessions.
+  </Card>
+  <Card title="Two-factor authentication" icon="lock" href="/account/two-factor">
+    Add an authenticator app.
+  </Card>
+</Columns>
