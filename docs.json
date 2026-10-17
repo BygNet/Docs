@@ -24,8 +24,7 @@
             "group": " ",
             "pages": [
               "web/index",
-              "web/quickstart",
-              "web/development"
+              "web/quickstart"
             ]
           }
         ]
@@ -66,7 +65,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:byg@a35.dev"
+        "href": "mailto:hi@byg.gg"
       }
     ],
     "primary": {
